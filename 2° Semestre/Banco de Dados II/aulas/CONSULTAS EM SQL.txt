@@ -1,0 +1,9 @@
+CONSULTAS EM SQL
+
+consulta ao banco de dados clinica, onde se usa a tabela medico como a principal, incluindo a tabela consultas e pacientes, adotando apelidos, e evitando produto cartesiano com multiplicação de dados.
+
+use clinica;
+
+select * from medicos as m
+    join consultas as c on m.codm = c.codm
+    JOIN pacientes as p on p.codp = c.codp;
