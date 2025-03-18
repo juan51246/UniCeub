@@ -1,5 +1,7 @@
 EXERCICIOS
 
+18/03/2025
+
 1) Buscar o nome e o CPF dos médicos com menos de 40 anos ou com especialidade diferente de traumatologia 
 USE clinica;
 
